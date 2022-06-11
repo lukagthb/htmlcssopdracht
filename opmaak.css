@@ -4,19 +4,31 @@
   font-family: Sans-Serif;
 }
 
+#achtermaps {
+  background-color: powderblue;
+}
+#filmpie {
+  background-color: powderblue;
+}
+#tekstvid {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
 #tekstje {
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 20px;
-  text-align: center
-}[p]
-
-#Locatie  {
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 20px;
-  text-align: center
-}[p]
+  text-align: center;
+}
+#htmlvideoback {
+  background-color: powderblue;
+}
+#entrepotdok{
+padding-left: 30px;
+padding-right: 30px;
+text-align: center;
+}
 
 #knop{
   margin-bottom: 20px;
@@ -35,18 +47,21 @@ body{
   width: 80%;
   align-content: center;
   margin-bottom: 20px;
-  border: 2px solid blue;
-  list-style: none;
-  margin: 15px;
-  text-decoration: none;
 
 }
 
-.nav-bar
-:hover{
+.nav-bar li{
+  border: 2px solid blue;
+  list-style: none;
+  margin: 15px;
+}
+.nav-bar li:hover{
   background-color: grey;
   font-size: 40px;
-}s
+}
+.nav-bar a{
+  text-decoration: none;
+}
 
 h1{
   text-align: center;
@@ -55,26 +70,4 @@ h1{
 
 h2{
   margin-bottom: 20px;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #38444d;
-}
-
-li {
-  float: left;
-}
-
-li a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-#achtermaps {
-  background-color: powderblue;
 }
